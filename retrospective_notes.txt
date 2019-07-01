@@ -1,7 +1,0 @@
-Written exercise:
-- Talk about multiple ways to implement the same workflow
-- Mention could have setup separate Slack notifications in each branch, but since all messages are the same you setup Slack once for simplicity specific to this.
-- If you wanted to do specific actions after the Slack notification, could move the Slack alert into each branch and then add additional actions into each branch
-- Talk about how you didn't have access to the Tray.io platform, would have done more thorough testing and provided more accurate details around setting up the workflow
-- If you had full access to Salesforce and Tray: would also do more testing, and show more screenshots/examples/proper outputs in Slack of messages being sent
-- Also mention any additional longer term goals or room for improvement
