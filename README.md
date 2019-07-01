@@ -164,7 +164,7 @@ Referencing the sample webhook data we started with, here's what that JSON data 
         channel: "sales-uk",
         attachments:[
             color: "#35A64F",
-            pretext: "oppertunity created with status Qualification",
+            pretext: "opportunity created with status Qualification",
             fields: [
                 {
                     "title": "Opportunity Name",
@@ -244,3 +244,12 @@ Slack documentation, which Tray's Slack service interfaces with / acts as a wrap
 - chat.postMessage() function: [https://api.slack.com/methods/chat.postMessage](https://api.slack.com/methods/chat.postMessage)
 - Message attachments: [https://api.slack.com/docs/message-attachments](https://api.slack.com/docs/message-attachments)
 - Workspace tokens: [https://api.slack.com/methods/workspace-tokens/#chat](https://api.slack.com/methods/workspace-tokens/#chat)
+
+
+## (9) Design choices and considerations
+
+There are multiple ways to implement this in a Tray workflow. I designed the workflow like this, because it simplifies the amount of setup work needed to send a Slack notification to a channel. 
+
+Alternatively, it's possible to move the Slack notification action and set one up for each individual branch, though it would only be recommended if the user wants to implement additional actions per-country once the ontification has been sent.
+
+Without access to the Tray platform, a lot of this is a generally high level overview and involved some guess work on my end. Provided proper support access to Salesforce and Tray, I would provide much more specific details on navigating pages, specific attributes, and providing screenshots showing more definitive examples of how a user would setup actions in a workflow.
