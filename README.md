@@ -21,7 +21,7 @@ Using the `branch operator`, will evaluate the account country (`US`, `EU`, `UK`
 
 ## (1) Slack Application Setup 🤖
 
-A Slack application will need to be created in order for a Tray workflow to send Slack notifications. THis can be found in Tray's Slack service documentation, in steps 1-3, under the `Setting up your private Slack app` section:
+A Slack application will need to be created in order for a Tray workflow to send Slack notifications. This can be found in Tray's Slack service documentation, in steps 1-3, under the `Setting up your private Slack app` section:
 [https://tray.io/documentation/platform/connectors/docs/service/slack/#setting-up-your-private-slack-app](https://tray.io/documentation/platform/connectors/docs/service/slack/#setting-up-your-private-slack-app)
 
 Once the application is created be sure to click `Basic Information`, and copy the `Verification Token`. The token is required when using a connector within a Tray workflow and will be needed later in the [`Send a notification`](https://amberlburroughs.github.io/Tray-Document-demo/#send-a-notification-) section.
